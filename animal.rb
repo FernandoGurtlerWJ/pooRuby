@@ -14,11 +14,11 @@ class Cachorro < Animal
   attr_reader :raca
   
   def initialize(nome, raca)
-    super(nome)
+    super(nome) #se referencia ao nome da classe mãe ou superclasse
     @raca = raca
   end
 
-  def comunicar
+  def comunicar #polimorfismo: sobrescreve o método comunicar da classe mãe
     puts "cachorro aqui"
   end
 end
@@ -47,4 +47,3 @@ puts "----------"
 puts g1.nome
 puts g1.raca
 g1.comunicar
-
