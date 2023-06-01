@@ -1,11 +1,15 @@
+# require_relative "modulo" #modulo.rb
+
 class Animal
+  # include Comunica  #modulo.rb
+
   attr_reader :nome
 
   def initialize(nome)
     @nome = nome
   end
 
-  def comunicar
+  def comunicar #já está no modulo.rb
     puts "aqui tá na classe mãe ou super classe"
   end
 end
