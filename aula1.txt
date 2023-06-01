@@ -1,0 +1,14 @@
+classes e objetos
+classes são instanciadas assim:
+
+class NomeMaiusculo
+    @aqui
+    @vao
+    @atributos
+end
+
+criação das classes
+
+nome = NomeMaiusculo.new
+
+os atributos de cada classe 
