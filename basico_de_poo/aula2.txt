@@ -1,0 +1,7 @@
+herança
+
+Gato < Animal 
+
+assim o Gato recebe os atributos de Animal
+
+Polimorfismo é quando um método da classe sobrescreve o método de outra classe

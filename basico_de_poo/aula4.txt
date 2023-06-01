@@ -1,0 +1,6 @@
+abstração
+
+deixar métodos repetitivos ou que serão muito utilizados em um modulo
+para depois ser incluso na classe utilizadora
+
+assim deixa o codigo mais clean e não tem problema de leitura

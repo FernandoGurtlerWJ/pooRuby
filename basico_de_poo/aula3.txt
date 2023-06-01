@@ -1,0 +1,4 @@
+deixar o método privado para que ele não possa ser acessado por qualquer um
+
+deixar que a classe mesmo que mexa nele ao invés de qualquer classe
+poder acessar e modificar os dados de um objeto
